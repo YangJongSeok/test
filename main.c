@@ -17,7 +17,9 @@ int main(int argc, char** argv)
             scanf("%d %d", &a, &b);
             break;
         case 2:
-        break;
+            printf("두 숫자를 입력\n");
+            scanf("%d %d", &a, &b);
+            break;
         case 3:
         break;
         case 4:
