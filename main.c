@@ -4,7 +4,7 @@ int main(int argc, char** argv)
 {
     int select = 0;
 
-    printf("1. ë”í•˜ê¸° | 2. ë¹¼ê¸° | 3. ê³±í•˜ê¸° | 4. ë‚˜ëˆ„ê¸°\n");
+    printf("1. ´õÇÏ±â | 2. »©±â | 3. °öÇÏ±â | 4. ³ª´©±â\n");
     printf("> ");
     scanf("%d", &select);
 
@@ -18,7 +18,7 @@ int main(int argc, char** argv)
         case 4:
         break;
         default:
-            printf("1~4 ì´ë‚´ì˜ ìˆ«ìë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”\n");
+            printf("1~4 ÀÌ³»ÀÇ ¼ıÀÚ¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä\n");
     }
 
 
