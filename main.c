@@ -13,6 +13,7 @@ int main(int argc, char** argv)
     switch(select){
         case 1:
             printf("두 정수 입력\n");
+            
             scanf("%d %d", &a, &b);
             break;
         case 2:
